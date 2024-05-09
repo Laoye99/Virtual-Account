@@ -1,0 +1,90 @@
+@import "../../scss/mixins";
+@import "../../scss/variables";
+
+.loginPage {
+  color: $color-black;
+  padding: 4rem 0rem;
+  min-height: calc(100vh - 5.2rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/src/assets/Login-bg.png");
+  background-size: cover;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+
+  .buttonWrapper {
+    margin: 4rem 0rem;
+
+    .antBtn {
+      background: $primary-colours-100;
+      border-radius: 4px;
+      height: 4.8rem;
+      width: 100%;
+      border: none;
+      outline: none;
+      color: #ffffff;
+
+      &:hover {
+        background: $primary-colours-400;
+        color: #ffffff;
+      }
+
+      &:active {
+        background: $primary-colours-400;
+        color: #ffffff;
+      }
+    }
+  }
+
+  label {
+    font-weight: 500;
+    font-size: 1.44rem;
+  }
+
+  p {
+    font-weight: 500;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+
+  form {
+    width: 54rem;
+    max-width: 100%;
+    padding: 2rem 3rem;
+    background: #ffffff;
+    border: 1px solid #d1d1d1;
+    border-radius: 2.4rem;
+  }
+
+  form input[type="text"] {
+    background: #ffffff;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+    height: 4.8rem;
+  }
+
+  .row {
+    display: flex;
+
+    .colAuto {
+      flex: 0 0 auto;
+
+      .logoWrapper {
+        margin-bottom: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+}
+
+.ant-btn {
+  background: $primary-colours-100;
+  border-radius: 4px;
+  height: 4.8rem;
+  width: 100%;
+}

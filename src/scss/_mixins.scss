@@ -1,0 +1,48 @@
+@import "./variables";
+
+// flex centre
+@mixin flexCentre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  // absolute centre
+  
+  @mixin absCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  // MEDIA QUERY MANAGER
+  
+  @mixin respond($breakpoint) {
+    @if $breakpoint == phone {
+      @media only screen and (max-width: $bp-small) {
+        @content;
+      } //320px
+    }
+    @if $breakpoint == tab-port {
+      @media only screen and (max-width: $bp-tablet) {
+        @content;
+      } //744px
+    }
+    @if $breakpoint == desktop {
+      @media only screen and (max-width: $bp-desktop) {
+        @content;
+      } //1280px
+    }
+    @if $breakpoint == big-desktop {
+      @media only screen and (min-width: $bp-large) {
+        @content;
+      } //1440px
+    }
+    @if $breakpoint == lg-desktop {
+      @media only screen and (min-width: $bp-largest) {
+        @content;
+      } //1920px
+    }
+  }
+  

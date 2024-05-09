@@ -1,6 +1,6 @@
-import SignIn from "../components/signIn/signIn";
+// import SignIn from "../components/signIn/signIn";
 import Footer from "../components/footer";
-// import AccountConfig from "@/components/accountConfig";
+impo
 
 const Welcome = () => {
     return (

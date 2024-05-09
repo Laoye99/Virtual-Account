@@ -5,7 +5,7 @@ import Footer from "../components/footer";
 const Welcome = () => {
     return (
         <>
-            <SignIn />
+            <AccountConfig />
             <Footer />
         </>
     )

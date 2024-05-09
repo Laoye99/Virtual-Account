@@ -1,0 +1,21 @@
+@import "../../scss/mixins";
+@import "../../scss/variables";
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p {
+        font-weight: 500;
+        font-size: 2.4rem;
+
+        .compName {
+            color: $primary-colours-100;
+            font-weight: 500;
+
+        }
+    }
+
+
+}

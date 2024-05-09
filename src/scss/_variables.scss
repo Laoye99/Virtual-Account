@@ -1,0 +1,70 @@
+//colour
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700&display=swap');
+
+
+// COLOR VARIABLES
+
+//color-primary
+$primary-colour-600: #f50606;
+$primary-colours-500: #d20303;
+$primary-colours-400: #d20303;
+$primary-colours-300: #c63531;
+$primary-colours-200: #f55753;
+$primary-colours-100: #f50606;
+$primary-colour-50: #460102;
+
+//accent-colours
+$accent-colours-600: #474b6d;
+$accent-colours-500: #6b6e8d;
+$accent-colours-400: #a3a6c9;
+$accent-colours-300: #ced0e4;
+$accent-colours-200: #dddff1;
+$accent-colours-100: #eeeff8;
+
+//nav-links-color
+$nav-link-color: #1d1b1e;
+$nav-buttom-color: #f4f3fe;
+
+//neutral-colours
+$color-white: #f1f1f1;
+$color-black: #1e1e1e;
+$black2-colour: #1c1c1c;
+$color-black-link: #101010;
+$color-bg-input: #fafafa;
+
+$color-black-heading: #2c2c2c;
+
+//box-shadow
+// $box-shadow-xy: .2rem .2rem .2rem .2rem rgba($color-grey-dark, 0.2);
+$box-shadow-y: 0 1.8rem 2.2rem 6rem, rgba(0, 0, 0, 0.11);
+$box-shadow-tutor: 0px 16px 24px rgba(142, 141, 208, 0.12);
+
+// FONT VARIABLES
+$font-primary: "Raleway", sans-serif;
+
+// HEADING VARIABLES
+$heading-xxl: 5.6rem;
+$heading-xl: 4.8rem;
+$heading-l: 3.2rem;
+$heading-lg: 2.4rem;
+$heading-md: 1.6rem;
+
+//BODY TEXT
+$main-text: 1.6rem;
+$sub-title: 2rem;
+$line-height: 3rem;
+
+$font-family: 'Public Sans', sans-serif;
+
+// RESPONSIVE BREAKPOINTS
+$bp-largest: 120em; // 1920px;
+$bp-large: 90em; // 1440px;
+$bp-desktop: 80em; // 1280px;
+$bp-tablet: 50em; // 768px;
+$bp-small: 20em; // 320px;
+
+$container-width-lg: 75%;
+$container-width-md: 86%;
+$container-width-sm: 90%;
+
+$gradients-hoverblue: linear-gradient(45deg, #d20303 0%, #f55753 100%);

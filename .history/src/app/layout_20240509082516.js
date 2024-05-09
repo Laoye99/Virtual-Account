@@ -7,9 +7,9 @@ import { AuthProvider } from "../context/AppContext";
 const inter = Raleway({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "VIRTUAL-ACCOUNT-SERVICE",
+  title: "VIRTUAL-ACCOUNT-SER",
   description:
-    "The application allows users to sign in and manage virtual account",
+    "The application allows users to sign in and create subscription request",
   icons: [
     {
       rel: "icon",

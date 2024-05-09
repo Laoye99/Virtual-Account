@@ -1,0 +1,83 @@
+@import "../../scss/mixins";
+@import "../../scss/variables";
+
+.sidebar {
+    position: relative;
+    max-width: 100%;
+    height: 100%;
+    background-color: #fff;
+    color: #ffffff;
+    padding: 1.5rem 2rem;
+
+
+
+}
+
+
+
+.fixed {
+    position: sticky;
+    top: 0;
+    left: 0;
+
+}
+
+.menu {
+    padding: 0;
+    list-style: none;
+
+    &.open {
+        display: block;
+    }
+
+
+}
+
+.sidebarItem {
+    display: flex;
+    align-items: center;
+    justify-content: centers;
+    gap: 1rem;
+    font-weight: 500;
+    font-size: 1.8rem;
+    padding: 1.4rem 1.6rem;
+    cursor: pointer;
+    color: #939393;
+    border-radius: 0.4rem;
+    transition: background-color 0.3s ease-in-out;
+
+
+
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+        color: #313638;
+    }
+
+}
+
+.active {
+
+    border: 8px;
+    background: #F1F1F1;
+    border-left: solid 0.8rem $primary-colours-400;
+    color: #313638;
+
+
+
+    &:hover {
+        background-color: #F1F1F1;
+    }
+}
+
+.menuTitle {
+    color: #939393;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
