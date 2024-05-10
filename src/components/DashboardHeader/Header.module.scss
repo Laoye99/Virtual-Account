@@ -1,0 +1,68 @@
+@import "../../scss/mixins";
+@import "../../scss/variables";
+
+.headerBox {
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 0rem 3rem;
+
+
+    .headerLabel {
+        p {
+            color: #313638;
+            font-size: 4rem;
+            font-weight: 500;
+        }
+    }
+}
+
+
+
+.profileImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    h5 {
+        color: #313638;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    p {
+        color: #939393;
+        font-size: 1rem;
+        font-weight: 500;
+
+    }
+}
+
+.logout {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .logoutModal {
+        text-align: center;
+        padding-top: 1rem;
+
+        p {
+            font-weight: 400;
+            font-size: 1.95rem;
+            margin-top: 3.2rem;
+            margin-bottom: 3rem;
+        }
+    }
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
